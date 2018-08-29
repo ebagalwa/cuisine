@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f5f5;
+}
+.container {
+    background: #f5f5f5;
+    padding-bottom: 20px;
+}
+.main_title h4 {
+    font-family: "Great Vibes",cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #333;
+    text-transform: capitalize;
+    margin: 50px 0 10px;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.9);
+}
+.main_title{
+  text-align: center!important;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.navigation {
+    padding: 15px 15px;
+    background: #fff;
+    border: 1px solid #E5E5E5;
+    margin: 0 10% 47px;
+    padding: 20px 30px;
+    text-align: center;
+}
+.navigation > li {
+    padding: 0 7px 0 0;
+    float: none;
+    display: inline-block;
+}
+.navigation > li > a {
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    line-height: 14px;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 14px 25px;
+    border-radius: 4px;
+}
+.container .box {
+    border: 1px solid #E5E5E5;
+    margin-bottom: 30px;
+    background: #fff;
+    flex: 0 0 50%;
+    max-width: 47%;
+    float: left;
+    margin-right: 20px;
+}
+.items{
+    position: relative;
+    width: 80%;
+    min-height: 1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box .caption {
+    position: relative;
+    border-left: 1px solid #E5E5E5;
+    margin-left: 130px;
+    padding: 19px 90px 19px 15px;
+    min-height: 135px;
+}
+.box .caption h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e54c2a;
+    margin: 0 0 4px;
+}
+.box .caption .price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e54c2a;
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+.box .caption .des {
+    font-size: 10px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    line-height: 20px;
+}
+.box .caption span {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #757575;
+}
+.container .box .image {
+    float: left;
+}
+.container .box .caption {
+    position: relative;
+    border-left: 1px solid #E5E5E5;
+    margin-left: 130px;
+    padding: 19px 90px 19px 15px;
+    min-height: 135px;
+}
